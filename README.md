@@ -27,3 +27,4 @@ mahmudfarzali, serkan@intranettechnology.com
 ## License
 
 IntraWalletTest is available under the MIT license. See the LICENSE file for more info.
+# walletForUi
