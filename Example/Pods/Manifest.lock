@@ -1,0 +1,16 @@
+PODS:
+  - IntraWalletTest (0.1.0)
+
+DEPENDENCIES:
+  - IntraWalletTest (from `../`)
+
+EXTERNAL SOURCES:
+  IntraWalletTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IntraWalletTest: 16400e95a4ffcf90d7dc643ada524eaa3bd81d4a
+
+PODFILE CHECKSUM: 1b119627c1749b484921f7faf31c630648bffbc1
+
+COCOAPODS: 1.11.3
