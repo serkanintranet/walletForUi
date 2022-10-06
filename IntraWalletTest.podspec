@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This project is a test project for the paywall'
                        DESC
 
   s.homepage         = 'https://github.com/serkanintranet/IntraWalletTest'
@@ -28,10 +28,19 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/serkanintranet/IntraWalletTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  #s.ios.deployment_target = '10.0'
 
-  s.source_files = 'IntraWalletTest/Classes/**/*'
+  #s.source_files = 'IntraWalletTest/Classes/**/*'
   
+  s.ios.deployment_target = '10.0'
+  
+  s.source_files = 'Source/**/*.swift'
+  
+  s.swift_version = '5.0'
+  
+  s.platforms = {
+    "ios": "10.0"
+  }
   # s.resource_bundles = {
   #   'IntraWalletTest' => ['IntraWalletTest/Assets/*.png']
   # }
